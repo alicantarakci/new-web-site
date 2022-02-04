@@ -9,12 +9,15 @@
    height: 51px;
 }
 .araliklibosluk {
-    justify-content: space-around;
+    display: flex;
+    justify-content: flex-end;
 }
 .baslikalti{
     background-color:#5d6065;
     width: 100%;
     height: 80px;
+    display: flex;
+    justify-content: flex-end;
 }
 .resimboyut{
     width:100%;
@@ -41,10 +44,9 @@
     background-color: black;
 }
 .yantaraf{
-    width: 600px;
+    width: 700px;
     height: 80px;
     background-color: blue;
-    justify-content: flex-end;
 }
 .solagidecek{
     width: 350px;
@@ -52,8 +54,13 @@
     background-color: red;
 }
 .sagagidecek{
-    width: 350px;
+    width: 750px;
     height: 50px;
     background-color: orange;
     
+}
+.digeryantaraf{
+    width: 700px;
+    height: 80px;
+    background-color: orange;
 }
