@@ -1,59 +1,85 @@
+<!-- En son yazdigimi en basa ekleyeyim :) Genelde CSS ve resimler icin assets diye bir klasor olusturuyoruz.
+Onun icine de images, fonts, styles gibi alt klasorler aciyoruz ve tum diger icerikleri de toplu bir sekilde
+depoluyoruz. Is buyuyunce proje rootu corba olmasin diye. -->
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title alani random mu birakiliyor? -->
+  <title>Document</title>
+  <!-- Bu iki kisim head icinde olmayacak mi? -->
   <link rel="stylesheet" href="web-site-2.css" />
+  <!-- Title alani iki kere olur mu? -->
   <title>Website - Home</title>
-  <body>
-    <div class="baslik">
-      <div class="araliklibosluk"> 
-        <div>sola gidecek</div>
-          
-          <div class="sagagidecek">saga gidecek</div>
-      </div>
+</head>
+<body>
+  <!-- Bu kullanim da cok yanlis degil ama ne demistim? Bir tane ana div ac tum icerik onun icinde olsun. -->
+  <!-- Ana bir div acip class olarak mesela home verebilirsin. -->
+
+  <!-- Burasi birinci part hemen body icinde. -->
+  <!-- Buraya misal baslik yerine header diyebilirsin.-->
+  <div class="baslik">
+    <!-- Buraya da header-content diyebilirsin. -->
+    <div class="araliklibosluk">
+      <!-- Farkli browserlarda sorun olmamasi icin buraya da class verip saga yaslamak iyi olabilir. Belki simdi sorun olmaz ama muhtemel. -->
+      <div>sola gidecek</div>
+
+      <!-- Buraya da header-right-content diyebilirsin -->
+      <div class="sagagidecek">saga gidecek</div>
     </div>
+  </div>
+  <!-- Burada bitiyor? Bunun da ana div icerisinde tum content ile birlikte olmasi deal durumdur. Tamami tek calisma alani icinde. -->
+  <div>
+    <div class="baslikalti">
+      <div>Sola gececek</div>
+      <div class="digeryantaraf">ortaya gececek</div>
+      <div class="yantaraf">saga gecicek</div>
+    </div>
+    <!-- Burada iceride bir div daha olustur dedikten sonra resmi koymak daha mantikli. Yarin resmin yanina bir sey daha istersem kolayca yapilsin diye. -->
     <div>
-      <div class="baslikalti">
-        <div>Sola gececek</div>
-        <div class="digeryantaraf">ortaya gececek</div>
-          <div class="yantaraf">saga gecicek</div>
-      </div>
-      <div>
-        <img src="resim-kayıt-2.png" alt="" class="resimboyut" />
-      </div>
-      <div class="ortayer">
-        <div class="blok">
-          <div class="kutu"> sol</div>
-          <div class="kutu"> orta</div>
-          <div class="kutu"> sag</div>
-        </div>
-        <div class="blok">
-          <div class="kutu"> sol</div>
-          <div class="kutu"> orta</div>
-          <div class="kutu"> sag</div>
-        </div>
-      </div>
-      <div>
-        <img src="resim-kayıt.png" alt="" class="resimboyut" />
-      </div>
-      <div class="ayagayakin">
-        <div class="kutucuk">
-          <div class="kutucuklar"></div>
-          <div class="kutucuklar-1"></div>
-          <div class="buyukkutu"></div>
-        </div>
-      </div>
-      <div class="ayak">
-        <div class="listekutu"></div>
-        <div class="listekutu" ></div>
-        <div class="listekutu"></div>
-        <div class="listekutu"></div>
-      </div>
-      <div class="parmak"></div>
+      <img src="resim-kayıt-2.png" alt="" class="resimboyut" />
     </div>
-  </body>
+    <!-- Bu orta yerde dikkat edersen gecen seferki gibi ortalanmis ve olcusu belirlenmis bir alan var. Direk tam sayfa kullanilmamis?
+    Senin de benzer bolumlendirmeyi yapman gerekiyor. Yoksa yine sag sol kaydiracaksin. -->
+    <div class="ortayer">
+      <div class="blok">
+        <!-- Kutu yerine box. Kolay seyler ama alis ve anlamli seyler kullan acisindan dikkat etmek lazim basta. -->
+        <div class="kutu"> sol</div>
+        <div class="kutu"> orta</div>
+        <div class="kutu"> sag</div>
+      </div>
+      <div class="blok">
+        <div class="kutu"> sol</div>
+        <div class="kutu"> orta</div>
+        <div class="kutu"> sag</div>
+      </div>
+    </div>
+    <!-- Burada iceride bir div daha olustur dedikten sonra resmi koymak daha mantikli. Yarin resmin yanina bir sey daha istersem kolayca yapilsin diye. -->
+    <div>
+      <!-- Misal buraya class olarak image-full diyebilirsin. Cift kelime olan class isimlerinde araya '-' isareti koyuyoruz. -->
+      <!-- Alt alanina da resmi tarifleyen kisa 3 5 kelimelik bir cumle yazabilirsin. Ileride arama motorlari icin onemli oluyor. -->
+      <img src="resim-kayıt.png" alt="" class="resimboyut" />
+    </div>
+    <!-- Burada kutucuklari ben sitede goremedim. Sadece follow us var. Orasi da yukaridaki alan gibi ortada belirli olculerle eklenmis div. Gov.uk gibi. -->
+    <!-- Bir de class isimleri bana pek bir sey ifade etmedi. Daha anlamli seyler deneyebilirsin. Bir de her zaman dedigim gibi turkce isimlendirme yok :)  -->
+    <div class="ayagayakin">
+      <div class="kutucuk">
+        <div class="kutucuklar"></div>
+        <div class="kutucuklar-1"></div>
+        <div class="buyukkutu"></div>
+      </div>
+    </div>
+    <div class="ayak">
+      <div class="listekutu"></div>
+      <div class="listekutu"></div>
+      <div class="listekutu"></div>
+      <div class="listekutu"></div>
+    </div>
+    <div class="parmak"></div>
+  </div>
+</body>
+
 </html>
