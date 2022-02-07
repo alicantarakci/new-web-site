@@ -30,7 +30,7 @@
 }
 .ayagayakin{
     width: 100%;
-    height: 755px;
+    height: 555px;
     background-color: red;
 }
 .ayak{
@@ -63,4 +63,46 @@
     width: 700px;
     height: 80px;
     background-color: orange;
+}
+.blok{
+    width: 100%;
+    height: 500px;
+    background-color: orange;
+    margin-left: 200px;
+}
+.kutu{
+    float: left;
+    width: 400px;
+    height: 500px;
+    background-color: red;
+    margin-left: 100px;
+}
+.kutucuk{
+    width: 800px;
+    height: 600px;
+    background-color: orange;
+    margin-left: 30%;
+}
+.kutucuklar-1{
+    width: 800px;
+    height: 100px;
+    background-color: white;
+}
+.buyukkutu{
+    width: 400px;
+    height: 500px;
+    background-color: blue;
+    margin-left: 200px;
+}
+.kutucuklar{
+    width: 800px;
+    height: 100px;
+    background-color: black;
+}
+.listekutu{
+    width: 270px;
+    height: 370px;
+    background-color: blue;
+    float: left;
+    margin-left: 150px;
 }
