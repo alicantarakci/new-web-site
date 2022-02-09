@@ -13,7 +13,7 @@
     justify-content: flex-end;
 }
 .baslikalti{
-    background-color:#5d6065;
+   background-color: #5d6065;
     width: 100%;
     height: 80px;
     display: flex;
@@ -46,7 +46,7 @@
 .yantaraf{
     width: 700px;
     height: 80px;
-    background-color: blue;
+    background-color: #5d6065;
 }
 .solagidecek{
     width: 350px;
@@ -56,13 +56,13 @@
 .sagagidecek{
     width: 750px;
     height: 50px;
-    background-color: orange;
+    background-color:  #C4D600;
     
 }
 .digeryantaraf{
-    width: 700px;
-    height: 80px;
-    background-color: orange;
+    width: 790px;
+    height: 80px; 
+    
 }
 .blok{
     width: 100%;
@@ -97,7 +97,6 @@
 .kutucuklar{
     width: 800px;
     height: 100px;
-    background-color: black;
 }
 .listekutu{
     width: 270px;
@@ -105,4 +104,49 @@
     background-color: blue;
     float: left;
     margin-left: 150px;
+}
+.kutuayar{
+    background-color: #9DCA00;
+    width: 190px;
+    height: 51px;
+    margin-left: 370px;
+}
+.yaziayar-1{
+    padding: 14px 23px;
+}
+.yaziayar-2{
+    padding: 14px 23px;
+    margin-right: 500px;
+}
+.resimboyut-1{
+    width:100%;
+    height: 80px;
+}
+.yantaraf-1{
+    padding: 0px 15px;
+    margin-top: 25px;
+}
+.yantaraf-1-yaziayarlama{
+    text-decoration: none;
+    padding: 0px 15px;
+}
+.resimayar-1{
+    width: 330px;
+    height: 230px;
+    padding-left: 30px;
+}
+.yazimayar-1{
+    padding-left: 30px;
+}
+.yazistilim-kutucuklar{
+    font-size: 38px;
+    color: #2B343B;
+    padding-left: 300px;
+    padding-top: 3%;
+}
+.yazistilim-kutucuklar-1{
+    font-size: 16px;
+    color: #5D6065;
+    padding-left: 170px;
+    margin: 0px 0px 15px;
 }
