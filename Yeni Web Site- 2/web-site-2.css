@@ -90,7 +90,7 @@
 }
 .buyukkutu{
     width: 400px;
-    height: 500px;
+    height: 350px;
     background-color: blue;
     margin-left: 200px;
 }
@@ -149,4 +149,20 @@
     color: #5D6065;
     padding-left: 170px;
     margin: 0px 0px 15px;
+}
+.buyuk-kutu-resim-ayar{
+    width: 100%;
+    height: 350px;
+}
+.liste-kutu-yazi-ayari{
+    font-size: 16px;
+    padding: 0px 0px 0px 20px;
+}
+.liste-kutu-baslik-yazi-ayarı{
+    font-size: 21px;
+    margin: 0px 0px 32px;
+    padding: 0px 0px 0px 20px;
+}
+.boslukbirakma{
+    padding: 0px 0px 12px;
 }
