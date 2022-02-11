@@ -43,6 +43,24 @@
     height: 56px;
     background-color: black;
 }
+.sol-parmak{
+    height: 56px;
+    width: 33.33%;
+    float: left;
+    background-color: orange;
+}
+.orta-parmak{
+    height: 56px;
+    width: 33.33%;
+    float: left;
+    background-color: yellow;
+}
+.sag-parmak{
+    height: 56px;
+    width: 33.33%;
+    float: left;
+    background-color: blue;
+}
 .yantaraf{
     width: 700px;
     height: 80px;
