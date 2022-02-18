@@ -26,7 +26,7 @@
 .ortayer{
     width: 100%;
     height: 1180px;
-    background-color: blue;
+    background-color: #5d6065;
 }
 .ayagayakin{
     width: 100%;
@@ -82,18 +82,24 @@
     height: 80px; 
     
 }
+.resimboyutayarlama-1{
+    padding-right: 300px;
+}
 .blok{
     width: 100%;
     height: 500px;
-    background-color: orange;
-    margin-left: 200px;
+    background-color: #5d6065;
+    
 }
 .kutu{
     float: left;
     width: 400px;
     height: 500px;
-    background-color: red;
-    margin-left: 100px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-top: 30px;
 }
 .kutucuk{
     width: 800px;
@@ -137,7 +143,7 @@
     margin-right: 500px;
 }
 .resimboyut-1{
-    width:100%;
+    width: 100%;
     height: 80px;
 }
 .yantaraf-1{
