@@ -13,7 +13,7 @@
     justify-content: flex-end;
 }
 .baslikalti{
-   background-color: #5d6065;
+   background-color: #05875b;
     width: 100%;
     height: 80px;
     display: flex;
@@ -26,17 +26,17 @@
 .ortayer{
     width: 100%;
     height: 1180px;
-    background-color: #5d6065;
+    background-color: #d8d8d8;
 }
 .ayagayakin{
     width: 100%;
     height: 555px;
-    background-color: red;
+    background-color: white;
 }
 .ayak{
     width: 100%;
     height: 364px;
-    background-color: yellow;
+    background-color: #05875b;
 }
 .parmak{
     width: 100%;
@@ -54,6 +54,7 @@
     width: 33.33%;
     float: left;
     background-color: #252D32;
+    
 }
 .sag-parmak{
     height: 56px;
@@ -64,12 +65,11 @@
 .yantaraf{
     width: 700px;
     height: 80px;
-    background-color: #5d6065;
+    margin-right: 30px;
 }
 .solagidecek{
     width: 350px;
     height: 50px;
-    background-color: red;
 }
 .sagagidecek{
     width: 750px;
@@ -88,7 +88,7 @@
 .blok{
     width: 100%;
     height: 500px;
-    background-color: #5d6065;
+    background-color: #d8d8d8;
     
 }
 .kutu{
@@ -104,7 +104,7 @@
 .kutucuk{
     width: 800px;
     height: 600px;
-    background-color: orange;
+    background-color: white;
     margin-left: 30%;
 }
 .kutucuklar-1{
@@ -125,7 +125,7 @@
 .listekutu{
     width: 270px;
     height: 370px;
-    background-color: blue;
+    background-color: #05875b;
     float: left;
     margin-left: 150px;
 }
@@ -152,7 +152,7 @@
 .resimboyut-1{
     width: 100%;
     height: 80px;
-    padding-right: 120px;
+    padding-right: 200px;
 }
 .yantaraf-1{
     padding: 0px 15px;
@@ -226,11 +226,14 @@
     color: #9DCA00;
 }
 .griyazi{
-    color: #5D6065;
+    color: #d8d8d8;
 }
 .ustcizgi{
     text-decoration: underline;
 }
 .boslukbirakma-1{
     margin-top: 30px;
+}
+.sonyaziayari{
+    padding-top: 20px;
 }
